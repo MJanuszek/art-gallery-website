@@ -1,10 +1,11 @@
-@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 .main-page {
   background-color: #fffce3;
   display: flex;
   flex-direction: column;
   font-size: 2em;
-  font-family: $fontGuerrilla;
+  font-family: "Protest Guerrilla", sans-serif;
 }
 
 .header {
@@ -31,8 +32,6 @@
     font-size: 3em;
   }
 }
-
-// -------------------------
 .current-events {
   height: 90vh;
 }
@@ -41,4 +40,4 @@
   height: 30vh;
   font-size: 1em;
   font-family: serif;
-}
+}/*# sourceMappingURL=Home.css.map */
