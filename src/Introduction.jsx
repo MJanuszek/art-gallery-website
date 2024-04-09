@@ -11,7 +11,7 @@ function Introduction() {
         setIsVisible(entry.isIntersecting);
       },
       {
-        threshold: 0.1,
+        threshold: 0.2,
       }
     );
 
@@ -33,7 +33,7 @@ function Introduction() {
       className={`introduction ${isVisible ? "introduction-animate" : ""}`}
     >
       <h1 className="introduction-title">introduction</h1>
-      <div>
+      <div className="introduction-description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
         cumque, delectus nisi recusandae ipsum, veniam eligendi et laudantium,
         quis repudiandae repellat nesciunt autem? Odit dolorem sapiente non

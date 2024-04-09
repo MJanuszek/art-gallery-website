@@ -11,7 +11,8 @@ function Home() {
       <Introduction />
       <div className="current-events">events</div>
       <div className="footer">
-        Copyright Monika Januszek. Visit my Github: https://github.com/MJanuszek{" "}
+        Copyright Monika Januszek <br />
+        Visit my Github: https://github.com/MJanuszek{" "}
       </div>
     </div>
   );
