@@ -1,0 +1,22 @@
+@import "variables";
+.latest-events {
+  min-height: 80vh;
+  background-color: $bgColor03;
+  margin-top: -6vh;
+  display: flex;
+  justify-content: center;
+}
+
+.events-title {
+  margin-top: 10vh;
+}
+
+.events-gallery {
+  height: 90vh;
+  width: 80vw;
+  margin: 0 auto;
+  background-color: $bgColor04;
+  margin-top: -9vh;
+  position: relative;
+  z-index: 3;
+}
