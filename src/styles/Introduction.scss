@@ -24,17 +24,15 @@
 
 .introduction-animate {
   background-color: $bgColor01;
-  animation: getBigger 3s forwards;
+  animation: getDarker 7s forwards;
 }
 
-@keyframes getBigger {
+@keyframes getDarker {
   from {
-    font-size: 0.6em;
     color: white;
   }
 
   to {
-    font-size: 1em;
     color: black;
     background-color: lighten($bgColor01, 10%);
   }

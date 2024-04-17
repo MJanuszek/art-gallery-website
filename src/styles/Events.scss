@@ -1,22 +1,75 @@
 @import "variables";
 .latest-events {
-  min-height: 80vh;
+  min-height: 90vh;
   background-color: $bgColor03;
+  background-image: url("../assets/katie-mcnabb-8AJuvX4hzws-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   margin-top: -6vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .events-title {
-  margin-top: 10vh;
+  text-shadow: 2px 2px 2px rgba(212, 212, 212, 0.811);
 }
-
+.all-events {
+  display: flex;
+  flex-direction: column;
+}
+.event {
+  min-height: 10vh;
+  min-width: 70vw;
+  background-color: white;
+  border: 3px solid black;
+  margin-top: 3vh;
+}
 .events-gallery {
   height: 90vh;
-  width: 80vw;
+  width: 90vw;
   margin: 0 auto;
-  background-color: $bgColor04;
+  background: linear-gradient(to bottom, $bgColor04, $bgColor03);
   margin-top: -9vh;
   position: relative;
   z-index: 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.offers-title {
+  position: relative;
+  z-index: 4;
+  margin: 0 auto;
+  margin-top: -5vh;
+}
+
+.img {
+  height: 40vh;
+  width: 20vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid white;
+  margin-top: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.811);
+}
+
+.img1 {
+  background-image: url("../assets/adrianna-geo-1rBg5YSi00c-unsplash.jpg");
+}
+.img2 {
+  background-image: url("../assets/europeana-VsnDYMWollM-unsplash.jpg");
+}
+
+.img3 {
+  background-image: url("../assets/birmingham-museums-trust-HEEvYhNzpEo-unsplash.jpg");
 }

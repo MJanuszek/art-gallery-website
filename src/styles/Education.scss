@@ -2,14 +2,46 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 50vh;
+  min-height: 90vh;
+}
+
+.edu-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../assets/nagy-arnold-cPIP9PcaqkA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.education-title {
+  margin: 0 auto;
+  margin-top: 4vh;
+  color: white;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 2px rgb(42, 42, 42);
 }
 
 .edu-offer {
   display: flex;
   justify-content: center;
-  border: 1px solid black;
-  background-color: white;
+  align-items: center;
+  border: 6px solid white;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.811);
+  font-size: 2em;
   min-width: 22vw;
   min-height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.edu-schools {
+  background-image: url("../assets/cdc-gsRi9cWCIB0-unsplash.jpg");
+}
+
+.edu-seniors {
+  background-image: url("../assets/ryan-stefan-5K98ScREEUY-unsplash.jpg");
+}
+.edu-individual {
+  background-image: url("../assets/werner-du-plessis-6dDHofabCQ8-unsplash.jpg");
 }
