@@ -14,8 +14,11 @@ function Home() {
       <Events />
       <Education />
       <div className="footer">
-        Copyright Monika Januszek <br />
-        Visit my Github: https://github.com/MJanuszek{" "}
+        <div className="footer-info">Copyright Monika Januszek</div>
+        <div className="footer-info">Visit my Github:</div>
+        <a className="footer-info" href="https://github.com/MJanuszek">
+          https://github.com/MJanuszek
+        </a>
       </div>
     </div>
   );

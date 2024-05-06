@@ -1,4 +1,5 @@
 @import "variables";
+
 .main-page {
   background-color: #fffce3;
   display: flex;
@@ -45,8 +46,40 @@
   font-family: serif;
   background-color: #ffecc8;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   line-height: 2em;
+}
+// ---------------------------------------------
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .main-page {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header {
+    height: auto;
+  }
+
+  .header-title {
+    animation: slideToCenterMobile 4s forwards;
+    text-align: center;
+  }
+
+  @keyframes slideToCenterMobile {
+    from {
+      top: 0;
+    }
+    to {
+      top: 50vh;
+      transform: translateY(-50%);
+      font-size: 1em; /* End at 1em font size for mobile screens */
+    }
+  }
 }
