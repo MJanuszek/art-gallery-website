@@ -3,12 +3,6 @@ import "./styles/Events.scss";
 function Events() {
   return (
     <>
-      <div className="latest-events">
-        <h1 className="events-title">Events</h1>
-        <div className="event"></div>
-        <div className="event"></div>
-        <div className="event"></div>
-      </div>
       <h1 className="offers-title">What can we offer</h1>
       <div className="events-gallery">
         <div className="img img1">Our Shop</div>

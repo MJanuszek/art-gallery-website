@@ -4,7 +4,7 @@
   background-color: #fffce3;
   display: flex;
   flex-direction: column;
-  font-size: 2em;
+  font-size: 1em;
   font-family: $fontGuerrilla;
 }
 
@@ -31,7 +31,9 @@
   to {
     top: 50vh;
     transform: translateY(-50%);
-    font-size: 3em;
+    font-size: 1.9em;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(245, 245, 245, 0.957);
   }
 }
 
@@ -50,7 +52,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  line-height: 2em;
+  line-height: 1.2em;
 }
 // ---------------------------------------------
 
@@ -79,7 +81,9 @@
     to {
       top: 50vh;
       transform: translateY(-50%);
-      font-size: 1em; /* End at 1em font size for mobile screens */
+      font-size: 1.6em;
+      color: black;
+      text-shadow: 2px 2px 4px rgba(245, 245, 245, 0.957);
     }
   }
 }
